@@ -1,0 +1,65 @@
+/* main part */
+main {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  padding: 15px;
+}
+
+/* title part */
+#title {
+  text-align: center;
+}
+
+#title h1 {
+  font-family: sans-serif;
+}
+
+#title p {
+  font-family: sans-serif;
+}
+
+/* image part */
+#img-div {
+  margin: 2px auto;
+  padding: 7px;
+  text-align: center;
+}
+
+#img-div img {
+  margin: 1px auto;
+  max-width: 100%; /* Adjusted to meet the user story requirements */
+  height: auto; /* Adjusted to meet the user story requirements */
+  display: block; /* Adjusted to meet the user story requirements */
+  border-radius: 7px;
+}
+
+/* tribute-info */
+#tribute-info {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#tribute-info > p {
+  font-weight: 600;
+}
+
+#tribute-info > ul > li {
+  text-align: left;
+  font-size: 0.8em;
+  list-style: circle;
+  padding: 17px;
+  border-bottom: 1px solid #a7a79b;
+}
+
+/* statement */
+.statement {
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+}
+
+/* link */
+.tribute-link {
+  text-align: center;
+  font-weight: 200;
+}

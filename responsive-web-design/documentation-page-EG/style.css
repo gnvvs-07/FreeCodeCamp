@@ -1,0 +1,141 @@
+/* making start:0 */
+html{
+  padding:0px;
+  margin:0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* main element */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* nav bar for laptops */
+.navbar {
+  width: 25%;
+  float: left;
+  height: 100vh;
+  margin:auto;
+  border-radius:12px 0 0 12px;
+  background-color: #111;
+  color: #fff;
+  overflow: auto; /* Add overflow for small screens */
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  main {
+    flex-direction: column;
+  }
+
+  .navbar {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .nav-insider {
+    flex-direction: row; /* Change flex direction to horizontal */
+    justify-content: space-around; /* Adjust as needed for spacing */
+  }
+
+  img {
+    width: 100%; /* Make images responsive within the container */
+    height: auto;
+  }
+}
+
+h1[class='heading'] {
+  font-weight: bold;
+  font-size: larger;
+  margin: 7px auto;
+  padding: 3px;
+}
+
+.nav-insider {
+  display: flex;
+  gap: 4vh;
+  flex-direction: column;
+}
+
+/* Update flex direction for small screens */
+@media (max-width: 767px) {
+  .nav-insider {
+    flex-direction: row;
+    align-items: center; /* Center the navigation links vertically */
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 2px auto;
+  text-align: center; /* Center the navigation links */
+}
+
+/* sections */
+.container {
+  background-color: #d9ead3;
+  color: #006100;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* lists */
+li {
+  list-style: none;
+  font-weight: bold;
+  text-align: left;
+  margin: 3px auto;
+}
+
+/* content {p} */
+p {
+  font-weight: normal;
+  width: 70%;
+}
+
+/* images */
+img {
+  max-width: 100%;
+  height: 200px;
+  width: 500px;
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+
+img[class="small"] {
+  max-width: 100%;
+  height: 220px;
+  width:377px;
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+
+/* hover effects */
+a:hover{
+  cursor:default;
+  opacity: .7;
+}
+.yt{
+  color:#006100
+}
+.c_a{
+  color:#006100
+}
+.pro{
+  color: #006100;
+}

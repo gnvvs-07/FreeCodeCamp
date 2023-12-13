@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Document Title</title>
+  <!-- Additional css requirements -->
+  <!--
+      In laptops the nav bar should be on the left
+      In mobiles the nav bar should be on the top
+      At least one media query should be used
+    -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="main-doc">
+
+    <!-- navbar -->
+    <nav class="navbar">
+      <header>
+        <h1 class="heading"> CSS Documentation</h1>
+      </header>
+      <div class="nav-insider">
+        <a class="nav-link" href="#CSS_Tutorial">CSS Tutorial</a>
+        <a class="nav-link" href="#CSS_Advanced">CSS Advanced</a>
+        <a class="nav-link" href="#CSS_Responsive">CSS Responsive</a>
+        <a class="nav-link" href="#CSS_Animations">CSS Animation</a>
+        <a class="nav-link" href="#CSS_Resources">CSS Resources</a>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <div class="container">
+
+      <section class="main-section" id="CSS_Tutorial">
+        <!--header -->
+        <header>
+          <h1 class="heading">CSS Tutorial</h1>
+        </header>
+        <ul>
+          <li>Intro
+            <p>➤The introductory part of a CSS tutorial or documentation may provide an overview of what CSS (Cascading Style Sheets) is and its role in web development. It could cover its purpose, syntax, and how it works in conjunction with HTML to style web pages.</p>
+          </li>
+          <li>Text
+            <p>➤In CSS, styling text involves controlling the appearance of text content on a webpage. This includes properties like font-family, font-size, font-weight, color, text-align, and text-decoration.</p>
+            <img class="big"src="./text.png" alt="example-font">
+          </li>
+          <li>Background
+            <p>➤ The background-color, background-image, background-position, and background-size properties control the background appearance.</p>
+            <img class="big" src="./bg.png" alt="background-color">
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="CSS_Advanced">
+        <header>
+          <h1 class="heading">CSS Advanced</h1>
+        </header>
+        <ul>
+          <li>Box-model
+            <p>➤The box model consists of width, height, padding, border, and margin properties to control the layout of elements.</p>
+            <img class="small" src="./box.png" alt="box-model">
+          </li>
+          <li>Properties of box model
+            <p>➤ Specific properties like padding-top, padding-right, padding-bottom, padding-left, border-width, border-style, and border-color can be individually adjusted.</p>
+            <img class="small" src="./boxProp.png" alt="box-model-properties">
+          </li>
+          <li>Position
+            <p>➤The position property and related properties like top, right, bottom, and left control the positioning of elements.</p>
+            <img src="./pos.png" alt="position">
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="CSS_Responsive">
+        <header>
+          <h1 class="heading">CSS Responsive</h1>
+        </header>
+        <ul>
+          <li>Pseudoselectors
+            <p>➤Pseudo-selectors like :hover and :nth-child allow the selection of elements based on their state or position.</p>
+            <img src="./pselectors.png" alt="Pseudo-selectors">
+          </li>
+          <li>Media
+            <p>➤Media queries enable responsive design by applying styles based on device characteristics.</p>
+            <img src="./media.png" alt="mediaQueries">
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="CSS_Animations">
+        <header>
+          <h1 class="heading">CSS Animations</h1>
+        </header>
+        <ul>
+          <li>Display
+            <p>➤The display property controls how an element is displayed on the webpage.</p>
+            <img src="./display.png" alt="display">
+          </li>
+          <li>2D
+            <p>➤CSS supports 2D animations using keyframes, transitions, and the animation property.</p>
+            <img src="./2d.png" alt="Animations">
+          </li>
+          <li>Examples
+            <p>➤Examples in CSS documentation illustrate how to use various properties and concepts to achieve specific styling effects.</p>
+            <img src="./eg.png" alt="Examples">
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="CSS_Resources">
+        <header>
+          <h1 class="heading">CSS Resources</h1>
+        </header>
+        <ul>
+          <li>YoutubeChannels
+            <a href="https://youtu.be/dX8396ZmSPk?si=yNXdymB3VUZ660I_" class="yt" target="_blank" rel="noopener">➤FreeCodeCamp</a>
+          </li>
+          <li>Courses&Articles
+            <a href="https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/" class="c_a" target="_blank" rel="noopener">➤FreeCodeCamp</a>
+          </li>
+          <li>Projects
+            <a href="https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/" class="pro" target="_blank" rel="noopener">➤GeeksForGeeks</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+</body>
+
+</html>
